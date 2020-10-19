@@ -7,15 +7,16 @@ package sef.module4.activity;
  * @author 
  *
  */
-
+/*
 public class datastruc{
 	
 	int ,
-	float,
+	float ,
 	long, 
 	string, 
 	 
 }
+*/
 public class Calculator {
 
 	
@@ -41,11 +42,10 @@ public class Calculator {
 	}
 	
 	// Add 
-	public int add(object ;) {
+	public int add(int x, int y) {
 		int sum = x + y;
 		return sum;
 	}
-
 	// Subtract
 	public int subtract(int x, int y) {
 		int diff = 0;

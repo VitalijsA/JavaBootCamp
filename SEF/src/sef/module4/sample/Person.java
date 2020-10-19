@@ -1,6 +1,5 @@
 package sef.module4.sample;
 
-import java.util.Calendar;
 
 public class Person {
 
