@@ -10,7 +10,7 @@ public class CheckedExceptionSample {
 		String fileName = "SomeFileThatDoesNotExist.txt";
 		
 		//The following class is used to open a file for reading
-		FileReader reader ;
+		FileReader reader;
 		
 		try{
 		//The following line must be written in a try catch block

@@ -7,16 +7,6 @@ package sef.module4.activity;
  * @author 
  *
  */
-/*
-public class datastruc{
-	
-	int ,
-	float ,
-	long, 
-	string, 
-	 
-}
-*/
 public class Calculator {
 
 	

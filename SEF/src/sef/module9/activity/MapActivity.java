@@ -1,7 +1,7 @@
 package sef.module9.activity;
 //Needs to be completed
 
-import java.util.Map;
+import java.util.HashMap;
 
 
 public class MapActivity {
@@ -11,7 +11,7 @@ public class MapActivity {
 		public static void main(String[] args) {
 			//1 - Type code to create a HashMap of key value pair
 			//where key is id of type String and value is a name
-			
+			HashMap<String, String> myMap = new HashMap<String, String>();
 			print(temp);
 			print1(10);
 			print2(temp);
@@ -31,10 +31,7 @@ public class MapActivity {
 		{
 			//int a = 10; 
 			for (int i = 0 ; i< a; i++) {
-				
-				
-				
-				
+				System.out.println(a);
 			}
 		
 		}

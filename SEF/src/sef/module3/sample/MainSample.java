@@ -5,8 +5,6 @@
  */
 
 package sef.module3.sample;
-import java.lang.*;
-
 /**
 * @author John Doe
 */
