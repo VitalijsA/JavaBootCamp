@@ -8,7 +8,11 @@ public class Employee_I extends Person_I {
 	private String title;
 	
 	//Behavior - write default constructor. Print 'I'm an Employee_I Constructor'
-	public Employee_I() {
+	public Employee_I(String name, int age, double salary, String title) {
+		super.setName(name);
+		super.setAge(age);
+		this.salary = salary;
+		this.title = title;
 		System.out.println("I'm an Employee_I Constructor");
 	}
 	// write getter for int salary

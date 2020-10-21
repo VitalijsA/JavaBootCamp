@@ -44,7 +44,6 @@ public class Calculator {
 		} else {
 			diff = y - x;
 		}
-
 		return diff;
 	}
 
@@ -56,7 +55,6 @@ public class Calculator {
 			temp = temp * numbers[i];
 		}
 		return temp;
-
 	}
 
 	// Divide
@@ -68,6 +66,5 @@ public class Calculator {
 			divValue = x / y;
 		}
 		return divValue;
-
 	}
 }

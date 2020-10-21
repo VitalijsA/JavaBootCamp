@@ -12,8 +12,7 @@ public class InheritanceActivity {
 		System.out.println("-----------------------------");
 		//Create Employee object e and 
 		// set salary as 70000, title as Developer, age as 32 and name as Shawn Cun
-		Employee_I e = new Employee_I();
-		
+		Employee_I e = new Employee_I("Shawn Cun", 32, 70000, "Developer");
 		// Print Info using Employee object
 		System.out.println("-----------------------------");
 		System.out.println("Employee's Name is   : " + e.getName());

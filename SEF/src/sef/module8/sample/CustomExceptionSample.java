@@ -19,6 +19,8 @@ public class CustomExceptionSample {
 			//2 - call setAge method with -1 as its parameter and surround this with a try catch block
 		try {
 			setAge(-10);
+			setAge(10);
+			setAge(-15);
 		} catch (CustomException c) {
 			System.out.println("Age can not be less then 0");
 			System.out.println(c.getMessage());
