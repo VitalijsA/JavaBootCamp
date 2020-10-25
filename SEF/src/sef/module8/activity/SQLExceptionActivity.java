@@ -32,7 +32,6 @@ public class SQLExceptionActivity {
 			catch (Exception f) {
 				System.out.println("Fatal error!");
 			}
-			System.out.println("Connection successfully established! \n");
 			
 			//2 - You also need to catch SQLException for it to compile
 			

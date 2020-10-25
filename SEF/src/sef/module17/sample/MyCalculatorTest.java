@@ -18,7 +18,6 @@ public class MyCalculatorTest extends TestCase {
 
 
 	public void testGetSum() {
-		
 		int a = 5;
 		int b = 10;			
 		//	Checks the sum of two (2) positive values

@@ -8,8 +8,8 @@ public abstract class Shape {
 	}
 	
 	// Complete the code and Add abstract method calculateArea() and calculatePerimeter() with return type as double
-	abstract double calculateArea();
-	abstract double calculatePerimeter();
+	public abstract double calculateArea();
+	public abstract double calculatePerimeter();
 	public void setColor(String c) {
 		color = c;
 	}

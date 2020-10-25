@@ -5,13 +5,12 @@ public class Rectangle extends Shape{
 	private double length;
 	private double breadth;
 
-	public Rectangle(String color, double length, double breadth) {
-		super.setColor(color);
+	public Rectangle(double length, double breadth) {
 		this.length = length;
 		this.breadth = breadth;
 	}
 	@Override
-	double calculateArea() {
+	public double calculateArea() {
 		return length*breadth;
 	}
 	@Override

@@ -1,0 +1,5 @@
+Arturs Koks 48 Software tester Accenture 7000.0
+Janis Berzins 43 Software tester Accenture 5000.0
+Kristaps Upe 26 Software tester Accenture 6000.0
+Vitalijs Anisimovs 21 Software tester Accenture 8000.0
+Zane Liepina 24 Software tester Accenture 12000.0

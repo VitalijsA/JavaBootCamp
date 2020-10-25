@@ -13,10 +13,12 @@ public class CustomExceptionActivityTest {
 		validateUser("Shanti");
 		validateUser("Janis");
 		validateUser("Staciee");
-	} catch(CustomExceptionActivity c) {
+		} 
+	catch(CustomExceptionActivity c) {
 		System.out.println(c.getMessage());
+		}	
 	}
-	}
+	
 
 static void validateUser(String name) throws CustomExceptionActivity
 {
